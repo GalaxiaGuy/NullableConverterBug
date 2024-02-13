@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:NullableConverterBug"
+             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+             x:Class="NullableConverterBug.MainPage"
+             x:DataType="local:ViewModel">
+    <ContentPage.Resources>
+        <toolkit:IsListNullOrEmptyConverter x:Key="IsListNullOrEmptyConverter" />
+    </ContentPage.Resources>
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="25">
+            <Image
+                x:Name="Image"
+                Source="dotnet_bot.png"
+                HeightRequest="185"
+                Aspect="AspectFit"
+                AutomationProperties.IsInAccessibleTree="{Binding Items, Converter={StaticResource IsListNullOrEmptyConverter}}"
+                SemanticProperties.Description="dot net bot in a race car number eight" />
+            
+            <Button Text="Trigger Manually" Clicked="Button_OnClicked"/>
+            
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
