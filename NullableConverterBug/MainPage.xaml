@@ -3,8 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:NullableConverterBug"
              xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
-             x:Class="NullableConverterBug.MainPage"
-             x:DataType="local:ViewModel">
+             x:Class="NullableConverterBug.MainPage">
     <ContentPage.Resources>
         <toolkit:IsListNullOrEmptyConverter x:Key="IsListNullOrEmptyConverter" />
     </ContentPage.Resources>
@@ -20,7 +19,10 @@
                 AutomationProperties.IsInAccessibleTree="{Binding Items, Converter={StaticResource IsListNullOrEmptyConverter}}"
                 SemanticProperties.Description="dot net bot in a race car number eight" />
 
-            <Editor Placeholder="This is a placeholder" FontFamily="Times New Roman" />
+            <Editor Placeholder="This is Editor with a placeholder" FontFamily="Times New Roman" />
+            <Editor Text="This is Editor with text" FontFamily="Times New Roman" />
+            <Entry Placeholder="This is Entry with a placeholder" FontFamily="Times New Roman" />
+            <Entry Text="This is Entry with text" FontFamily="Times New Roman" />
             
         </VerticalStackLayout>
     </ScrollView>
