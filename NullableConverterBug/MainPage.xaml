@@ -19,8 +19,8 @@
                 Aspect="AspectFit"
                 AutomationProperties.IsInAccessibleTree="{Binding Items, Converter={StaticResource IsListNullOrEmptyConverter}}"
                 SemanticProperties.Description="dot net bot in a race car number eight" />
-            
-            <Button Text="Trigger Manually" Clicked="Button_OnClicked"/>
+
+            <Editor Placeholder="This is a placeholder" FontFamily="Times New Roman" />
             
         </VerticalStackLayout>
     </ScrollView>
