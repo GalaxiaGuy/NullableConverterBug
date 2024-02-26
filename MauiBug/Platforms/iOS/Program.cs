@@ -1,7 +1,7 @@
 ﻿using ObjCRuntime;
 using UIKit;
 
-namespace NullableConverterBug;
+namespace MauiBug;
 
 public class Program
 {

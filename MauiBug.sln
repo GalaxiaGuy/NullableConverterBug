@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NullableConverterBug", "NullableConverterBug\NullableConverterBug.csproj", "{FEC570E9-B0E6-42D5-AABA-AEA41B7CF8E7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MauiBug", "MauiBug\MauiBug.csproj", "{FEC570E9-B0E6-42D5-AABA-AEA41B7CF8E7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -1,6 +1,6 @@
 ﻿using Foundation;
 
-namespace NullableConverterBug;
+namespace MauiBug;
 
 [Register("AppDelegate")]
 public class AppDelegate : MauiUIApplicationDelegate

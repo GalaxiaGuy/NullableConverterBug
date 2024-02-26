@@ -1,7 +1,7 @@
 ﻿using CommunityToolkit.Maui;
 using Microsoft.Extensions.Logging;
 
-namespace NullableConverterBug;
+namespace MauiBug;
 
 public static class MauiProgram
 {

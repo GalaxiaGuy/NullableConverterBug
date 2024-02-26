@@ -1,7 +1,7 @@
 ﻿using Android.App;
 using Android.Runtime;
 
-namespace NullableConverterBug;
+namespace MauiBug;
 
 [Application]
 public class MainApplication : MauiApplication

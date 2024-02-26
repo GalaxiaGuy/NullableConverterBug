@@ -1,4 +1,4 @@
-﻿namespace NullableConverterBug;
+﻿namespace MauiBug;
 
 public partial class App : Application
 {
