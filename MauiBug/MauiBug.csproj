@@ -20,7 +20,7 @@
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
 
-        <_MauiForceXamlCForDebug>True</_MauiForceXamlCForDebug>
+        <!--<_MauiForceXamlCForDebug>True</_MauiForceXamlCForDebug>-->
 
         <!-- Display name -->
         <ApplicationTitle>MauiBug</ApplicationTitle>
